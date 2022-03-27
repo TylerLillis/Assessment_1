@@ -3,10 +3,19 @@ h3 {
   margin: auto auto auto 700px;
 }
 
+p{
+  color: black;
+  font-size: 15px;
+}
+
 html {
-  background-color: #1a1919;
+  background-color: white;
   font-family: sans-serif;
 
+}
+
+h5 {
+  font-size: 20px;
 }
 
 h4 {
@@ -15,26 +24,34 @@ h4 {
 }
 
 .Intro {
-  color: blue;
-  margin: auto 900px auto 100px;
-  background-color: #212121;
+  margin: auto 50px auto auto;
+
   }
+.duocol{
+  float: left;
+  width: 50%;
+}
+
+.Intro:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 .ITlikes {
-  color: green;
-  margin: auto auto auto 900px;
-  background-color: ;
-
+  margin: 80px 50px 50px auto;
 }
 
 .ITCareer {
-
+  margin: auto 50px 50px auto;
 }
 
 .Profile {
+  margin: 100px 50px 50px auto;
 
 }
 
 .ProjectIdea {
-
+  margin: auto 50px 50px auto;
 }
